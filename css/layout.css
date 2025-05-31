@@ -1,14 +1,15 @@
 #app {
     display: grid;
-    grid-template-columns: 51.25%  48.75%;
+    grid-template-columns: 51.25% 48.75%;
 
     height: 100vh;
-    overflow: hidden;
 }
 
 main {
     overflow: auto;
     padding: 4rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 
     .main-container {
         max-width: 33rem;
@@ -31,11 +32,12 @@ main {
 aside {
     padding: 4rem;
     background-color: var(--surface-secondary);
+    overflow: hidden;
 
     .aside-container {
         max-width: 31rem;
 
-        > img {
+        >img {
             margin-top: 2rem;
         }
     }
@@ -48,4 +50,4 @@ aside {
             color: var(--text-highliht);
         }
     }
-}   
+}

@@ -12,6 +12,7 @@
 :root {
     --font-family: "Poppins", sans-serif;
     --text: 1rem/1.5 var(--font-family);
+    --text-md: 600 1rem/125% var(--font-family);
     --text-sm: .875rem/1.4 var(--font-family);
 
     --text-primary: #292524;
@@ -34,6 +35,8 @@
     --blue: #B8CEDC;
     --violet: #C3B2E7;
     --pink: #F682A5;
+
+    zoom: 80%;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -63,7 +66,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    overflow: hidden;
 
     color: var(--text-secondary);
     font: var(--text);
